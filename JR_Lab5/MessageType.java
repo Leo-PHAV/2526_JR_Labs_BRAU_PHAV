@@ -1,0 +1,11 @@
+package TP5;
+
+public enum MessageType {
+    LOGIN_REQUEST,    
+    LOGIN_RESPONSE,    
+    JOIN_ROOM_REQUEST,
+    TEXT_MESSAGE,
+    PRIVATE_MESSAGE,
+    USER_LIST_REQUEST,
+    ERROR_RESPONSE
+}
